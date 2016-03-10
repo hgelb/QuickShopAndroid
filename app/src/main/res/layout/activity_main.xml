@@ -7,12 +7,48 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorBackgrund"
     tools:context="com.quickshop.activity.MainActivity">
 
-    <Button android:id="@+id/scan_button"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/food"
+        android:background="@drawable/food"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/scan_button"
-        android:onClick="openActivity"/>
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="80dp"
+        android:adjustViewBounds="false"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoView"
+        android:src="@drawable/logo3"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="300dp" />
+
+
+    <Button
+        android:id="@+id/btnStart"
+        android:onClick="goToCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Shopping"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPurple"
+        android:textAllCaps="false"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginBottom="25dp"/>
+
+
 </RelativeLayout>

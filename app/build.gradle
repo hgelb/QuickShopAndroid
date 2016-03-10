@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.example.user.quickshopandroidapp"
+        applicationId "com.quickshop.activity"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
@@ -18,13 +18,16 @@ android {
         }
     }
 }
-dependencies {
-    compile 'com.google.code.gson:gson:2.3.1'
-}
+
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.0'
+}
+
+dependencies {
+    compile 'com.google.code.gson:gson:2.3.1'
 }
 dependencies {
     compile 'com.google.guava:guava:18.0'
@@ -34,13 +37,12 @@ dependencies {
 }
 
 //dependencies {
-//    compile 'org.springframework:spring-core:4.1.1.RELEASE'
+// compile 'org.springframework:spring-core:4.1.1.RELEASE'
 //}
 //
 //dependencies {
-//    compile 'org.springframework:spring-context:4.1.1.RELEASE'
+// compile 'org.springframework:spring-context:4.1.1.RELEASE'
 //}
 //
 //dependencies {
-//    compile 'org.springframework:spring-aop:4.1.1.RELEASE'
-//}
+// compile 'org.springframework:spring-aop:4.1.1.RELEASE'

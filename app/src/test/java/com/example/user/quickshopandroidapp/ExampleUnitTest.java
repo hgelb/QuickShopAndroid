@@ -1,4 +1,4 @@
-package com.example.user.quickshop;
+package com.example.user.quickshopandroidapp;
 
 import org.junit.Test;
 

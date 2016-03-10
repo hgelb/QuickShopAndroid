@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">QuickShopAndroidApp</string>
+    <string name="app_name">Quick Shop</string>
     <string name="scan_button">Scan</string>
+    <string name="price_tb">Price:</string>
+    <string name="qty_tb">Qty:</string>
+
 </resources>
